@@ -10,6 +10,7 @@
 <body class="background">
    <h1 class="heading"> Todo List</h1> 
    <div class="container">
+    <form id="todo-form">
     <input class="box" tpye="text" placeholder="Add a Task" id="input task">
     <input class="box" tpye="text" placeholder="Add a Task" id="input task">    
     <input class="box" tpye="text" placeholder="Add a Task" id="input task">
@@ -20,8 +21,11 @@
     <input class="box" tpye="text" placeholder="Add a Task" id="input task">
     <input class="box" tpye="text" placeholder="Add a Task" id="input task">
     <input class="box" tpye="text" placeholder="Add a Task" id="input task">
+
+    </form>
     <button onclick="addTask()">Add</button>
     <ul id="task-list"></ul>
+    <button id="clear-btn">Clear All</button>
    </div>
    <script src="script.js"></script>
 </body>

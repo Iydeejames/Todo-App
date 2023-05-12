@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 2.5rem;
 }
 
 .heading{
@@ -21,7 +22,7 @@
 
 .box{
     width: 15rem;
-    height: 1.3rem;
+    height: 1.6rem;
     margin-top: 0.5rem;
     border-radius: 0.3rem;
     border-left: 2rem;
@@ -46,7 +47,8 @@ button{
     color: #fff;
     background-color: rgba(0, 217, 255, 0.945);
     border-style: none;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: -2.2rem;
     font-family: cursive;
     transition: background-color 0.7s;
 }
