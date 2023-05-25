@@ -10,6 +10,15 @@ let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 //Load saved tasks on page load
 loadTasks();
 
+//Acconplished all task
+function deleteTasks() {
+var taskList = document.getElementById('todo-form');
+//remove all task by removing all child elements
+while (taskList.firstChild) {
+    taskList.removeChild(taskList.firstChild);
+ }
+}
+
 /*Add a new task
 function addTask(taskText) {
     const taskItem = document.createElement('li');
